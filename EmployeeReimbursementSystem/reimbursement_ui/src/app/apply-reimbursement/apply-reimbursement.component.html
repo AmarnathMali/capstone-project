@@ -1,0 +1,17 @@
+
+
+
+
+<h3> Apply for Reimbursement</h3>
+<div>
+<input [(ngModel)]="reimbursementObj.reason" type="text" placeholder="reason" />
+<br><br>
+
+<input type="number" placeholder="Amount" [(ngModel)]="reimbursementObj.amount" /> <br><br>
+
+<button (click)="applyReimbursement()" > Apply </button> <br><br>
+</div>
+
+<h4> {{acknowledgeMsg}} </h4>
+
+ 
